@@ -32,5 +32,15 @@ namespace RPG.src.Entities
         {
             return $"\t\tHeroi\n\tNome: {this.Name} \n\tClasse: {this.HeroType} \n\tNivel: {this.Level} \n\tVida: {this.Health} \n\tAtaque: {this.Attack} \n\tDefesa: {this.Defense}";
         }
+
+        public virtual int Ataque()
+        {
+            return Attack;
+        }
+
+        public virtual int Defesa()
+        {
+            return Defense;
+        }
     }
 }
