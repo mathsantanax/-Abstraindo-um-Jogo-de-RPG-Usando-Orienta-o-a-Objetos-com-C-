@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Reflection;
 using RPG.src.Entities;
+using RPG.src.Models;
 
 namespace RPG;
 
@@ -18,6 +19,7 @@ class Program
                                 + "[2] - Mage\n"
                                 + "[3] - Assassin\n"
                                 + "[4] - Acher\n"
+                                + "[5] - Iniciar Jogo\n"
                                 + "[0] - Sair\n";
 
             Console.WriteLine("Qual Tipo de heroi vc Gostaria de Criar");
@@ -48,7 +50,11 @@ class Program
                     Acher acher = new Acher(Console.ReadLine());
                     heroi.Add(acher);
                     break;
-
+                
+                case 5:
+                    Jogo jogo = new Jogo();
+                    jogo.main(heroi);
+                    break;
                 case 0:
                     op = false;
                     break;
