@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj": {}
+    "C:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj": {
+    "C:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj",
         "projectName": "RPG",
-        "projectPath": "c:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj",
+        "projectPath": "C:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\RPG.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\Documents\\Repositórios\\-Abstraindo-um-Jogo-de-RPG-Usando-Orienta-o-a-Objetos-com-CSharp\\RPG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
