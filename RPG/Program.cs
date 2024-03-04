@@ -55,8 +55,13 @@ class Program
                     Jogo jogo = new Jogo();
                     jogo.main(heroi);
                     break;
+
                 case 0: // saindo do jogo
                     op = false;
+                    break;
+
+                default: // caso o usuario não escolha a opção correta
+                    Console.WriteLine("Escolha uma opção valida.");
                     break;
                 
             }

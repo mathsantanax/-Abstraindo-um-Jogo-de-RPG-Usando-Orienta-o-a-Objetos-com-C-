@@ -45,7 +45,8 @@ namespace RPG.src.Models
                                 + "[4] - Acher\n"
                                 + "[5] - Listar\n"
                                 + "[0] - Sair do Jogo\n";
-
+                
+                Console.WriteLine("Qual das Classes ira atacar: ");
                 Console.WriteLine(Heroi);
                 int Menu = int.Parse(Console.ReadLine());
                 switch(Menu) // eslhendo qual heroi irá atacar primeiro
@@ -161,11 +162,17 @@ namespace RPG.src.Models
                             Console.WriteLine("---------------------------------------------------");
                         }
                         break;
+
                     case 0: // para voltar ao menu anterior
                         op = false;
                         break;
+
+                    default:// caso o usuario não escolha a opção correta
+                        Console.WriteLine("Escolha uma opçao valida");
+                    break;
                 }
-                Thread.Sleep(5000); // pausa a tela para ler as informações
+                Console.WriteLine("Aperte qualquer tecla pra continuar");
+                Console.Read(); // aguardando o usuario apertar qualquer tecla para continuar
                 Console.Clear(); // limpando a tela
             }
         }
