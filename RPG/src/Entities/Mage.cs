@@ -2,6 +2,8 @@ namespace RPG.src.Entities
 {
     public class Mage : Hero
     {
+
+        // Criação da classe mago com dados pré definidos
         public Mage(string Name)
         {
             this.Name = Name;

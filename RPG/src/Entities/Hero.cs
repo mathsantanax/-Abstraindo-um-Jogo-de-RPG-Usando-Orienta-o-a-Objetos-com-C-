@@ -7,9 +7,11 @@ namespace RPG.src.Entities
 {
     public abstract class Hero
     {
+
+        // classe abstrata de Herois
         public Hero()
         {
-            
+
         }
         public Hero(string Name, int Level, string HeroType, int Health, int Attack, int Defense)
         {
@@ -28,16 +30,21 @@ namespace RPG.src.Entities
         public int Attack {get; set;}
         public int Defense {get; set;}
 
+
+        // Aprensetação do Heroi
         public virtual string ToString()
         {
             return $"\t\tHeroi\n\tNome: {this.Name} \n\tClasse: {this.HeroType} \n\tNivel: {this.Level} \n\tVida: {this.Health} \n\tAtaque: {this.Attack} \n\tDefesa: {this.Defense}";
         }
 
+
+        // Classe de ataque do heroi
         public virtual int Ataque()
         {
             return Attack;
         }
 
+        // Classe de Defesa do Heroi
         public virtual int Defesa()
         {
             return Defense;

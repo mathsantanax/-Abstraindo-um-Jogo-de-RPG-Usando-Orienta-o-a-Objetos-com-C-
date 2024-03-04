@@ -2,6 +2,7 @@ namespace RPG.src.Entities
 {
     public class Acher : Hero
     {
+        // Criação da classe arqueiro com dados pré definidos
         public Acher(string Name)
         {
             this.Name = Name;
@@ -11,6 +12,7 @@ namespace RPG.src.Entities
             this.Attack = 75;
             this.Defense = 275;
         }
+
         public override string ToString()
         {
             return base.ToString();

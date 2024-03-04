@@ -2,6 +2,7 @@ namespace RPG.src.Entities
 {
     public class Assassin : Hero
     {
+        // Criação da classe assassino com dados pré definidos
         public Assassin(string Name)
         {
             this.Name = Name;
